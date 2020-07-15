@@ -5,11 +5,6 @@
     --dark__blue: hsl(248, 32%, 49%);
 }
 
-@font-face {
-    font-family: 'Poppins';
-    src: url(./fonts/Poppins-Regular.ttf), url(./fonts/Poppins-Medium.ttf);
-}
-
 body {
     font-size: 16px;
     font-family: 'Poppins';

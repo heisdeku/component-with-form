@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="intro__section">
+            <h1>
+                Learn to code by watching others
+            </h1>
+            <p>
+                See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.
+            </p>
+        </div>
+        <div class="signup__section">
+            <div class="a__section">
+                <p><span class="bold">Try it free 7 days </span>then $20/mo, thereafter</p>
+            </div>
+            <form class="form-container">
+                <div class="form__item form__inputs" data-field="firstname">
+                    <input type="text" class="firstname inputs" data-field="firstname" placeholder="First Name">
+
+                </div>
+
+                <div class="form__item form__inputs" data-field="lastname">
+                    <input type="text" class="lastname inputs" placeholder="Last Name">
+                </div>
+
+                <div class="form__item">
+                    <input type="email" class="email inputs" placeholder="Email Address">
+
+                </div>
+
+                <div class="form__item form__inputs" data-field="password">
+                    <input type="password" class="password inputs" placeholder="Password">
+                </div>
+                <div class="form__item">
+                    <button class="btn">Claim your free trial</button>
+                </div>
+                <div class="form__item">
+                    <p>
+                        By clicking the button, you are agreeing to our
+                        <span class="red__bold"><a href="/termsandconditions">Terms and Services</a></span>
+                    </p>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+    <script src="./validation.js"></script>
+</body>
+
+</html>
